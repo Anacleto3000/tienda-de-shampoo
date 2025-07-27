@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+#texto-1{
+    color: black;
+}
+
+#texto-2{
+    color: white;
+}
+
+#texto-3{
+    color: white;
+}
+
+
+.carousel-caption{
+    bottom: 50%;
+}
+
+
+.registro{
+    display: flex;
+    border: 2px solid white;
+    display: flex;
+
+    align-items: center;
+    column-gap: 60px;
+    
+    
+    color: white;
+
+    
+}
+
+.box-ingreso img{
+    height: 40px;
+}
+
+.box-cabeza{
+    border: 2px solid rgb(253, 7, 7);
+    position: absolute;
+    z-index: 999;
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+#logo{
+    width: 130px;
+}
+
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 100vh; /* o 80vh o 600px, como desees */
+}
+
+/* Hace que las imágenes se comporten como fondo-cover */
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* 🔥 Aquí ocurre la "magia" */
+  object-position: center;   /* Centra el recorte */
+}

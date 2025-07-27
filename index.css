@@ -1,0 +1,267 @@
+@media (max-width:100px){
+
+}
+
+
+
+
+body {
+    margin: 0;
+
+}
+
+.box-cabeza {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#logo {
+    width: 130px;
+}
+
+#box-ingreso {
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid;
+    color: white;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+
+}
+
+#box-ingreso img {
+    height: 40px;
+}
+
+.fondo-principal{
+    background-image: url(imagenes/FONDO.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 800px;
+    
+    
+}
+.anuncio {
+
+    color: rgb(0, 0, 0);
+
+    height: 450px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px;
+
+}
+
+.anuncio h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+.anuncio h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.productos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box-1 {
+    background-image: url(imagenes/fondo\ azul\ claro\ degradado.avif);
+}
+
+#box-2 {
+    background-image: url(imagenes/fondo\ verde\ pastel.webp);
+}
+
+#box-3 {
+    background-image: url(imagenes/fondo\ piel\ pastel.webp);
+    background-size: cover;
+}
+
+.logos {
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-bottom: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+
+
+#logo-hs {
+    height: 90px;
+    transform: scale(0.8);
+}
+
+#logo-savital {
+    height: 80px;
+    transform: scale(0.8);
+}
+
+#logo-pantene {
+    height: 100px;
+    transform: scale(0.8);
+}
+
+#shampoos-hs {
+    display: flex;
+    column-gap: 100px;
+
+
+
+}
+
+#shampoos-savital {
+    display: flex;
+    column-gap: 100px;
+}
+
+#shampoos-pantene {
+    display: flex;
+    column-gap: 100px;
+}
+
+.box img {
+    height: 200px;
+    border: 2px solid;
+
+
+}
+
+.box-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid green;
+    margin-bottom: 200px;
+}
+
+
+
+.box {
+    border: 2px solid firebrick;
+    width: 250px;
+    height: 450px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#boton-agregar-1,
+#boton-agregar-2,
+#boton-agregar-3 {
+    background-color: rgb(138, 184, 249);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+#boton-agregar-4,
+#boton-agregar-5,
+#boton-agregar-6 {
+    background-color: rgb(48, 197, 95);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+#boton-agregar-7,
+#boton-agregar-8,
+#boton-agregar-9 {
+    background-color: rgb(240, 217, 100);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+#shampoo-1,
+#shampoo-2,
+#shampoo-3 {
+    background-color: rgb(225, 241, 249);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#shampoo-4,
+#shampoo-5,
+#shampoo-6 {
+    background-color: rgb(225, 249, 227);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#shampoo-7,
+#shampoo-8,
+#shampoo-9 {
+    background-color: rgb(249, 241, 225);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#precio-hs {
+    color: rgb(0, 31, 169);
+}
+
+#precio-savital {
+    color: rgb(0, 99, 0);
+}
+
+#precio-pantene {
+    color: rgb(244, 164, 4);
+}
+
+
+#box-logo-hs {
+    color: rgb(0, 31, 169);
+}
+
+#box-logo-savital {
+    color: rgb(0, 99, 0);
+}
+
+#box-logo-pantene {
+    color: rgb(244, 164, 4);
+}

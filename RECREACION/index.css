@@ -1,0 +1,418 @@
+@media (max-width:920px) {
+    .box-ingreso span {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        display: none;
+    }
+
+    #img-carrito,
+    #img-lupa {
+        height: 30px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+    #shampoo-1,
+    #shampoo-2,
+    #shampoo-3,
+    #shampoo-4,
+    #shampoo-5,
+    #shampoo-6,
+    #shampoo-7,
+    #shampoo-8,
+    #shampoo-9 {
+        width: 200px;
+        height: 425px;
+    }
+
+
+
+
+    #box-logo-hs,
+    #box-logo-savital,
+    #box-logo-pantene {
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width:900px) {
+
+    #shampoo-3,
+    #shampoo-6,
+    #shampoo-9 {
+        display: none !important;
+    }
+
+    .porque {
+        display: none;
+    }
+
+
+    #logo-hs,
+    #logo-savital,
+    #logo-pantene {
+        height: 60px !important;
+    }
+
+    .logos {
+
+        column-gap: 30px !important;
+        justify-content: space-evenly !important;
+    }
+
+
+}
+
+
+
+
+
+
+body {
+    margin: 0;
+
+}
+
+.fondo-principal {
+
+    height: 100vh;
+    overflow: hidden;
+
+
+    object-fit: cover;
+}
+
+.box-cabeza {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+.logo {
+    width: 14%;
+
+}
+
+.box-ingreso {
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+
+
+}
+
+
+.box-ingreso img {
+    height: 40px;
+}
+
+
+
+
+
+
+
+.carousel-caption {
+
+    height: 100%;
+
+
+
+    display: flex;
+    flex-direction: column;
+
+
+    gap: 100px;
+}
+
+#texto-1 {
+    color: black;
+}
+
+
+
+
+
+.productos {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box-1 {
+    background-image: url(imagenes/fondo\ azul\ claro\ degradado.avif);
+    margin: 0;
+
+}
+
+#box-2 {
+    background-image: url(imagenes/fondo\ verde\ pastel.webp);
+}
+
+#box-3 {
+    background-image: url(imagenes/fondo\ piel\ pastel.webp);
+    background-size: cover;
+}
+
+.logos {
+
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    column-gap: 50px;
+
+    align-items: center;
+
+
+    margin-bottom: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+
+
+#logo-hs {
+    height: 90px;
+    transform: scale(0.8);
+}
+
+#logo-savital {
+    height: 80px;
+    transform: scale(0.8);
+}
+
+#logo-pantene {
+    height: 100px;
+    transform: scale(0.8);
+}
+
+#shampoos-hs {
+    display: flex;
+    column-gap: 50px;
+
+
+
+
+
+}
+
+#shampoos-savital {
+    display: flex;
+    column-gap: 50px;
+}
+
+#shampoos-pantene {
+    display: flex;
+    column-gap: 50px;
+}
+
+.box img {
+    height: 200px;
+
+
+
+}
+
+.box-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    margin-bottom: 150px;
+}
+
+
+
+.box {
+
+    width: 250px;
+    height: 450px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+    transition: transform 0.3s ease;
+
+}
+
+#boton-agregar-1,
+#boton-agregar-2,
+#boton-agregar-3 {
+    cursor: pointer;
+    opacity: 0;
+    background-color: rgb(138, 184, 249);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out
+}
+
+#boton-agregar-4,
+#boton-agregar-5,
+#boton-agregar-6 {
+    cursor: pointer;
+    opacity: 0;
+    background-color: rgb(48, 197, 95);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out
+
+}
+
+#boton-agregar-7,
+#boton-agregar-8,
+#boton-agregar-9 {
+    cursor: pointer;
+    opacity: 0;
+    background-color: rgb(240, 217, 100);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out
+}
+
+#shampoo-1,
+#shampoo-2,
+#shampoo-3 {
+    background-color: rgb(225, 241, 249);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#shampoo-4,
+#shampoo-5,
+#shampoo-6 {
+    background-color: rgb(225, 249, 227);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#shampoo-7,
+#shampoo-8,
+#shampoo-9 {
+    background-color: rgb(249, 241, 225);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#precio-hs {
+    color: rgb(0, 31, 169);
+}
+
+#precio-savital {
+    color: rgb(0, 99, 0);
+}
+
+#precio-pantene {
+    color: rgb(244, 164, 4);
+}
+
+
+#box-logo-hs {
+    color: rgb(0, 31, 169);
+}
+
+#box-logo-savital {
+    color: rgb(0, 99, 0);
+}
+
+#box-logo-pantene {
+    color: rgb(244, 164, 4);
+}
+
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    height: 100vh;
+}
+
+
+#img-1,
+#img-2,
+#img-3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.box:hover #boton-agregar-1 {
+    opacity: 1;
+}
+
+.box:hover #boton-agregar-2 {
+    opacity: 1;
+}
+
+.box:hover #boton-agregar-3 {
+    opacity: 1;
+}
+
+.box:hover #boton-agregar-4 {
+    opacity: 1;
+}
+
+.box:hover #boton-agregar-5 {
+    opacity: 1;
+}
+
+.box:hover #boton-agregar-6 {
+    opacity: 1;
+}
+
+.box:hover #boton-agregar-7 {
+    opacity: 1;
+}
+
+.box:hover #boton-agregar-8 {
+    opacity: 1;
+}
+
+.box:hover #boton-agregar-9 {
+    opacity: 1;
+}
+
+.box:hover{
+    transform: translateY(-15px);
+}
