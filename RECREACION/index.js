@@ -14,3 +14,10 @@ function AgregarProducto_noti() {
   let noti_producto_agregado = document.getElementsByClassName("box-principal")[0]
   noti_producto_agregado.style.display="flex"
 }
+
+function CerrarNotificacion() {
+
+  let noti_producto_agregado = document.getElementsByClassName("box-principal")[0]
+  noti_producto_agregado.style.display="none"
+  
+}
